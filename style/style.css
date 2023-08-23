@@ -1,0 +1,126 @@
+body{
+    background-color: #b17e4f;
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url(../fonts/Roboto-LightItalic.ttf);
+}
+
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+header{
+    background-color: black;
+    height: 5%;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: unset;
+    text-align: center;
+}
+
+header ul li{
+    display: list-item;
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+    width: 20%;
+}
+
+header ul a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto-LightItalic;
+}
+
+header ul li:hover{
+    background-color: green;
+}
+.img1 img{
+    width: 96%;
+    height: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0%;
+}
+
+.zagolov h1{
+    color: #b17e4f;
+    margin-left: 3%;
+}
+
+.zagolov2{
+    margin-left: 3%;
+}
+
+.zagolov2 a{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.text1{
+    padding-top: 2%;
+    margin-left: 3%;
+}
+
+.text2{
+    padding-top: 2%;
+    margin-left: 3%;
+}
+
+.text3{
+    padding-top: 2%;
+    margin-left: 3%;
+}
+
+.zagolov3 h1{
+    color: #b17e4f;
+    margin-left: 3%;
+}
+
+.zagolov4{
+    margin-left: 3%;
+}
+
+.zagolov4 a{
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.text4{
+    padding-top: 2%;
+    margin-left: 3%;
+}
+
+.text5{
+    padding-top: 2%;
+    margin-left: 3%;
+}
+
+footer{
+    background-color: greenyellow;
+    margin: auto; 
+    border-radius: 5px;
+    width: 98%;
+}
+
+
+.copyright{
+    width: 740px; 
+    padding: 0 10px 10px; 
+    color: black;
+    margin: auto; 
+    text-align: center;
+}
+
+.copyright a{
+    color: green;
+    text-decoration: none;
+}
